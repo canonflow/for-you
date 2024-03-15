@@ -103,6 +103,13 @@
     const pesan = document.getElementById('pesan');
 
     const kirimPesan = () => {
+        let oriPesan = pesan.value;
+        let encodedPesan = encodeURIComponent(oriPesan);
+        let link = document.createElement('a');
+        link.href = `https://wa.me/6281332600497/?text=${oriPesan}`;
+        link.target = '_blank';
+        link.style.display = 'none';
+        link.click();
         console.log(pesan.value);
         console.log(encodeURIComponent(pesan.value));
     };
