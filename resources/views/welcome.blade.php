@@ -60,8 +60,8 @@
         }
     </style>
 </head>
-<body>
-<div class="world select-none" data-theme="nord">
+<body data-theme="nord">
+<div class="world select-none">
     <div class="absolute w-full h-full flex flex-col items-center">
         <h1 id="title" class="text-3xl font-bold pb-5 mt-3 text-accent">FOR YOU</h1>
         {{--        <a--}}
@@ -78,7 +78,7 @@
         </div>
         <textarea
             id="pesan"
-            class="textarea textarea-bordered textarea-accenttextarea-md w-3/4 px-5 lg:h-[14%] resize-none max-w-2xl lg:w-full mb-4"
+            class="textarea textarea-bordered textarea-accenttextarea-md w-3/4 px-5 lg:h-[14%] resize-none max-w-2xl lg:w-full mb-4 z-50"
             placeholder="Pesan..."
         ></textarea>
 {{--        <label for="" class="form-control mb-4">--}}
@@ -87,7 +87,7 @@
 {{--            </div>--}}
 {{--        </label>--}}
 
-        <button onclick="kirimPesan()" class="btn btn-primary max-w-2xl px-6 hover:text-slate-200">Kirim</button>
+        <button onclick="kirimPesan()" class="btn btn-primary max-w-2xl px-6 hover:text-slate-200 z-[51]">Kirim</button>
     </div>
     <div class="absolute bottom-3 left-1/2 translate-x-[-50%]">
         <p class="font-bold uppercase text-amber-950">Klik layar-nya biar dombanya loncat - loncat 😆😆</p>
