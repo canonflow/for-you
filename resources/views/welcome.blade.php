@@ -60,8 +60,8 @@
         }
     </style>
 </head>
-<body data-theme="nord">
-<div class="world select-none">
+<body class="world" data-theme="nord">
+<div class="select-none">
     <div class="absolute w-full h-full flex flex-col items-center">
         <h1 id="title" class="text-3xl font-bold pb-5 mt-3 text-accent">FOR YOU</h1>
         {{--        <a--}}
@@ -80,6 +80,7 @@
             id="pesan"
             class="textarea textarea-bordered textarea-accenttextarea-md w-3/4 px-5 lg:h-[14%] resize-none max-w-2xl lg:w-full mb-4 z-50"
             placeholder="Pesan..."
+            autofocus
         ></textarea>
 {{--        <label for="" class="form-control mb-4">--}}
 {{--            <div class="label">--}}
