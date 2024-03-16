@@ -99,14 +99,14 @@
 
 {{--<audio class="world-music" src="https://res.cloudinary.com/liza/video/upload/v1492853426/sheep_qr3tus.m4a"></audio>--}}
     @vite('resources/js/three.js')
-<script>
+<script type="text/javascript">
     const pesan = document.getElementById('pesan');
 
     const kirimPesan = () => {
         let oriPesan = pesan.value;
         let encodedPesan = encodeURIComponent(oriPesan);
         let link = document.createElement('a');
-        link.href = `https://wa.me/6281332600497/?text=${oriPesan}`;
+        link.href = `https://wa.me/6281332600497/?text=${encodedPesan}`;
         link.target = '_blank';
         link.style.display = 'none';
         link.click();
