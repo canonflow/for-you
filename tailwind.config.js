@@ -41,6 +41,7 @@ export default {
             //         ...customPalette
             //     }
             // }
-        ]
+        ],
+        darkTheme: 'nord'
     }
 };
