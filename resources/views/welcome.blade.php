@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="nord">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -60,7 +60,7 @@
         }
     </style>
 </head>
-<body class="world" data-theme="nord">
+<body class="world">
 <div class="select-none">
     <div class="absolute w-full h-full flex flex-col items-center">
         <h1 id="title" class="text-3xl font-bold pb-5 mt-3 text-accent">FOR YOU</h1>
